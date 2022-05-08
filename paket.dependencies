@@ -1,0 +1,44 @@
+source https://api.nuget.org/v3/index.json
+
+storage: none
+framework: net6.0
+
+nuget Swashbuckle.AspNetCore
+
+nuget AspNetCore.HealthChecks.Redis
+nuget Serilog.AspNetCore
+nuget Serilog.Enrichers.ClientInfo
+nuget Serilog.Enrichers.Environment
+nuget Serilog.Enrichers.Process
+nuget Serilog.Enrichers.Thread
+nuget Serilog.Exceptions
+nuget Serilog.Extensions.Hosting
+nuget Serilog.Sinks.Async
+nuget Serilog.Sinks.Console
+nuget Serilog.Sinks.Trace
+nuget Serilog.Formatting.Elasticsearch
+nuget Serilog.Sinks.Seq
+nuget Microsoft.Extensions.Hosting.Abstractions
+nuget StronglyTypedId prerelease
+nuget NATS.Client  
+nuget Microsoft.Tye.Extensions.Configuration
+nuget FastEndpoints
+nuget FastEndpoints.Swagger
+
+nuget Proto.Actor 
+nuget Roslynator.Analyzers
+nuget SonarAnalyzer.CSharp
+nuget AsyncFixer
+nuget LanguageExt.Core
+nuget System.Linq.Async
+nuget ClrHeapAllocationAnalyzer
+nuget StackExchange.Redis
+
+nuget AutoFixture
+nuget FluentAssertions
+nuget xunit
+nuget xunit.runner.visualstudio
+nuget Moq
+nuget coverlet.collector
+nuget DotNet.Testcontainers prerelease
+nuget Microsoft.NET.Test.Sdk
