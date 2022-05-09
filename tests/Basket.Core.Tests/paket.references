@@ -4,5 +4,5 @@ xunit
 xunit.runner.visualstudio
 Moq
 coverlet.collector
-DotNet.Testcontainers prerelease
+DotNet.Testcontainers
 Microsoft.NET.Test.Sdk
