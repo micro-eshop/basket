@@ -26,8 +26,8 @@ public sealed class CustomerBasket
         return new CustomerBasket(customerId, items);
     }
 
-    public static CustomerBasket Empty()
+    public static CustomerBasket Empty(CustomerId id)
     {
-        return new CustomerBasket(CustomerId.Empty, Array.Empty<Item>());
+        return new CustomerBasket(id, Array.Empty<Item>());
     }
 }
