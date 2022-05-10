@@ -8,7 +8,13 @@ public partial struct ProductId { }
 [StronglyTypedId(converters: StronglyTypedIdConverter.SystemTextJson)]
 public partial struct CustomerId { }
 
-public readonly record struct Item(ProductId ProductId, int Quantity);
+public readonly record struct Item(ProductId ProductId, int Quantity)
+{
+    public Item Add(int quantity)
+    {
+        return new Item(ProductId, Quantity + quantity);
+    }
+}
 
 public sealed class CustomerBasket
 {
