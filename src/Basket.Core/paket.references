@@ -6,3 +6,4 @@ ClrHeapAllocationAnalyzer
 StackExchange.Redis
 StronglyTypedId
 Proto.Actor
+Proto.Persistence

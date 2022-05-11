@@ -25,7 +25,8 @@ nuget Microsoft.Tye.Extensions.Configuration
 nuget FastEndpoints
 nuget FastEndpoints.Swagger
 
-nuget Proto.Actor 
+nuget Proto.Actor
+nuget Proto.Persistence
 nuget Roslynator.Analyzers
 nuget SonarAnalyzer.CSharp
 nuget AsyncFixer
