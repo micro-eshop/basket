@@ -6,3 +6,4 @@ Moq
 coverlet.collector
 DotNet.Testcontainers
 Microsoft.NET.Test.Sdk
+Akka.TestKit.Xunit2

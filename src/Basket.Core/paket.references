@@ -5,5 +5,5 @@ System.Linq.Async
 ClrHeapAllocationAnalyzer
 StackExchange.Redis
 StronglyTypedId
-Proto.Actor
-Proto.Persistence
+Akka
+Akka.Persistence
