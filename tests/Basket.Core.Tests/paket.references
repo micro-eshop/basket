@@ -4,6 +4,6 @@ xunit
 xunit.runner.visualstudio
 Moq
 coverlet.collector
-DotNet.Testcontainers
+Testcontainers
 Microsoft.NET.Test.Sdk
 Akka.TestKit.Xunit2

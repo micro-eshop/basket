@@ -20,7 +20,7 @@ nuget Serilog.Formatting.Elasticsearch
 nuget Serilog.Sinks.Seq
 nuget Microsoft.Extensions.Hosting.Abstractions
 nuget StronglyTypedId prerelease
-nuget NATS.Client  
+nuget RabbitMQ.Stream.Client prerelease
 nuget Microsoft.Tye.Extensions.Configuration
 nuget FastEndpoints
 nuget FastEndpoints.Swagger
@@ -42,5 +42,5 @@ nuget xunit
 nuget xunit.runner.visualstudio
 nuget Moq
 nuget coverlet.collector
-nuget DotNet.Testcontainers prerelease
+nuget Testcontainers
 nuget Microsoft.NET.Test.Sdk
